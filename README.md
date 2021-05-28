@@ -1,12 +1,13 @@
+### Download code
+
+##### `git clone https://github.com/AmanGotchu/CoinbaseOrderBook.git`
+
 ### Install Dependencies
 
-##### `npm install`
-
-
-
+##### `cd CoinbaseOrderBook && npm install`
 
 ### Run app locally.
-##### `npm start install`
+##### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
