@@ -1,6 +1,5 @@
 .row-cell {
     display: flex;
-    flex-wrap: wrap;
     width: 20%;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,6 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     min-height: 60px;

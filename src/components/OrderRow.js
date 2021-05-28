@@ -11,8 +11,8 @@ function OrderRow(props) {
         </p>
         <p className="row-cell">{props.price}</p>
         <p className="row-cell">{props.size}</p>
-        <p className="row-cell">{props.price * props.size}</p>
-        <p className="row-cell">{props.sum}</p>
+        <p className="row-cell">{(props.price * props.size).toFixed(2)}</p>
+        <p className="row-cell">{props.sum.toFixed(2)}</p>
     </div>
   );
 }
