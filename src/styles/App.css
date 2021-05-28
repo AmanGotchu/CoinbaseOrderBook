@@ -1,0 +1,30 @@
+.AppContainer {
+  display: "flex";
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+}
+
+.OrderTable {
+  display: flex;
+  height: 100%;
+  width: 800px;
+  flex-direction: column;
+  margin-bottom: 100;
+  border: 1px solid #ededed;
+}
+

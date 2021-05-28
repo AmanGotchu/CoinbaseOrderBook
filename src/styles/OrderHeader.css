@@ -1,0 +1,17 @@
+.row-cell {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #848e9c;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+}

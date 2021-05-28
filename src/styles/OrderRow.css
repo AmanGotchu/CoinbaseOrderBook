@@ -1,0 +1,49 @@
+.row-cell {
+    display: "flex";
+    flex-wrap: wrap;
+    min-width: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #848e9c;
+}
+
+.row-buy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    animation: buy-highlight .05s 1 linear;
+}
+
+.row-sell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    animation: pink-highlight .05s 1 linear;
+}
+
+@keyframes buy-highlight {
+    from {
+      background-color: rgba(0,197,130, .15);
+    }
+  
+    to {
+        background-color: white;
+    }
+} 
+
+@keyframes pink-highlight {
+    from {
+        background-color: rgba(255,3,114,.15);
+    }
+
+    to {
+        background-color: white;
+    }
+}
