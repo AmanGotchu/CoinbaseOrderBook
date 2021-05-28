@@ -7,7 +7,7 @@ function OrderRow(props) {
   return (
     <div className={props.isBuy ? "row-buy" : "row-sell"}>
         <p className="row-cell" style={{ fontWeight: "bold", color: (props.isBuy ? "#00C582" : "#FF0372")}}>
-            {props.isBuy ? "BUY" : "SELL"} - {props.index}
+            {props.isBuy ? "BUY" : "SELL"} {props.index}
         </p>
         <p className="row-cell">{props.price}</p>
         <p className="row-cell">{props.size}</p>
